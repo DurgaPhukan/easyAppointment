@@ -1,9 +1,10 @@
 import React from 'react'
+import Header from '../components/header'
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
     return (
         <div>
-            <h2 className='text-xl'>Route Group Dashboad Navbar </h2>
+            <Header />
             {children}
         </div>
     )

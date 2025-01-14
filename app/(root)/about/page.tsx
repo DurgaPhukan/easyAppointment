@@ -1,10 +1,10 @@
 import React from 'react'
 
 const Page = () => {
-    throw new Error("NOT IMPLEMENTED")
+    // throw new Error("NOT IMPLEMENTED")
 
     return (
-        <div>About</div>
+        <div className='bg-primary'>About Log</div>
     )
 }
 

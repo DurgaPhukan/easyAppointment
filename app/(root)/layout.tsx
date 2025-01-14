@@ -1,9 +1,10 @@
 import React from 'react'
+import LoaderLinear from '../components/loader'
+import Login from '../components/login'
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
     return (
         <div>
-            <h1 className='text-2xl'>Root NavBar</h1>
             {children}
         </div>
 

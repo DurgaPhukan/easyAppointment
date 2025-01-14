@@ -19,3 +19,48 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Your custom styles */
+.fill-none {
+  fill: none;
+}
+
+/* .stroke-[3] {
+  stroke-width: 3;
+} */
+
+.rounded-lg {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+#back {
+  stroke: #d8f3dc;
+}
+
+#front {
+  stroke: #2d6a4f;
+  stroke-dasharray: 48, 144;
+  stroke-dashoffset: 192;
+}
+
+@keyframes dash {
+  72.5% {
+    opacity: 0;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.animate-dash {
+  animation: dash 1.6s linear infinite;
+}
+
+.inputlogin {
+  @apply border-2 border-secondary rounded-lg px-2 py-2 w-[350px] text-bg-dark font-bold text-lg
+}
+
+.heading3 {
+  @apply font-bold text-xl text-bg-dark dark:text-custom-white pt-3 pb-1
+}
