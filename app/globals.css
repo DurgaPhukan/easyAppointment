@@ -69,3 +69,7 @@ body {
 .icon-style{
   @apply w-6 h-6
 }
+
+.para-text{
+  @apply font-light text-secondary text-base md:text-lg tracking-wider
+}
