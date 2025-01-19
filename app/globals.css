@@ -25,9 +25,6 @@ body {
   fill: none;
 }
 
-/* .stroke-[3] {
-  stroke-width: 3;
-} */
 
 .rounded-lg {
   stroke-linecap: round;
@@ -58,9 +55,17 @@ body {
 }
 
 .inputlogin {
-  @apply border-2 border-secondary rounded-lg px-2 py-2 w-[350px] text-bg-dark font-bold text-lg
+  @apply border-2 border-secondary rounded-lg px-2 py-2 w-[350px] font-bold text-lg
 }
 
 .heading3 {
-  @apply font-bold text-xl text-bg-dark dark:text-custom-white pt-3 pb-1
+  @apply font-bold text-xl  pt-3 pb-1
+}
+
+.header-text{
+  @apply text-base text-secondary dark:text-secondary-dark font-thin
+}
+
+.icon-style{
+  @apply w-6 h-6
 }

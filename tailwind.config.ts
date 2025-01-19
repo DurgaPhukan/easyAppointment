@@ -11,14 +11,13 @@ export default {
 
     // },
     colors: {
-      'primary': '#b7e4c7',
-      'primary-dark': '#40916c',
-      'secondary': "#74c69d",
-      'secondary-dark': "#b7e4c7",
-      'bg': "f8f9fa",
-      "bg-dark": '#1b4332',
-      'custom-white': '#e9ecef',
-      'black': '#030712'
+      'primary': '#307BC4',
+      'primary-dark': '#FFFFFF',
+      'secondary': "#274760",
+      'secondary-dark': "#e9ecef",
+      'black': '#030712',
+      'bg-light': "#FFFFFF",
+      'bg-dark': "#274760",
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
@@ -26,6 +25,9 @@ export default {
     },
 
     extend: {
+      backgroundImage: {
+        // '':
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
